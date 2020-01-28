@@ -159,5 +159,21 @@ float: right;
 .story-text {
     padding: 20px 0;
 }
+.line{
+  width: 72px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 0px auto 18px;
+}
+.signup-info{
+  text-align: center;
+}
+.signup-info a{
+  color: blue;
+}
+.line:last-child{
+  margin-top: 1rem;
+}
+.inflation-sec{
+}
 
 /* main end */
