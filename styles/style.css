@@ -1,0 +1,76 @@
+/* table of content */
+
+/* css reset
+ * general style
+ * header
+ * main
+*/
+
+/* css reset */
+
+button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* css reset end */
+
+/* general style */
+
+body {
+    font-family: 'Tinos',georgia,'times new roman',times,serif;;
+}
+
+/* general style end */
+
+/* header */
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.header-cont {
+    background-color: white;
+    padding: 5px 15px;
+    display: flex;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.left-header-icons {
+    padding: 5px;
+    margin-left: 5px;
+    color: rgb(51, 51, 51);;
+}
+
+.left-header-text {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.logo-cont {
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+
+.right-cont button {
+    background-color: #567b95;
+    border: 1px solid #3f5c70;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 11px 12px 8px 12px;
+}
+
+/* header end */
