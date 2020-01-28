@@ -242,4 +242,18 @@ float: right;
 .grid-cont>p {
     margin: 0;
 }
+
+.grid-footer::before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color: #000;
+}
+
+.grid-footer>p {
+    margin: 0;
+}
+
 /* main end */
