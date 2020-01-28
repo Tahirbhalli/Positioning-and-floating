@@ -74,3 +74,90 @@ header {
 }
 
 /* header end */
+
+/* main */
+
+.story {
+    width: 600px;
+    margin: auto;
+}
+
+.title {
+    width: 383px;
+    text-align: center;
+    font-style: italic;
+    margin: 50px 0 25px 0;
+    font-size: 232%;
+}
+
+.author-sec {
+    width: 945px;
+    color: #666;
+    margin: auto;
+}
+
+.author-sec img {
+    width: 100%;
+}
+
+.author-name {
+    color: rgb(155, 154, 154);
+}
+
+.author-sec p {
+    width: 720px;
+}
+
+.story-header {
+    height: 27px;
+    width: 600px;
+}
+
+.story-header>.right-cont>.social-links {
+    border-radius: 50%;
+    color: black;
+    background-color: #EEE;
+    font-size: 88%;
+    padding: 7px;
+    padding: 0.5em 0.6em;
+    border: 1px solid #fff;
+    margin-right: 5px;
+}
+
+.story-header>.right-cont>.social-links:hover {
+    background-color: #fff;
+    border: 1px solid #eee;
+
+}
+
+.right-cont {
+float: right;
+}
+
+.date {
+    float: left;
+    font-size: 90%;
+}
+
+.right-cont>a>img {
+    position: relative;
+    margin-right: 5px;
+    bottom: -10px;
+}
+
+.right-cont>a>img[alt="svg2"]{
+    margin-right: 5px;
+    bottom: -14px;
+}
+
+.story>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 90%;
+}
+
+.story-text {
+    padding: 20px 0;
+}
+
+/* main end */
