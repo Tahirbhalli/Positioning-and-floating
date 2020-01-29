@@ -1,9 +1,11 @@
-/* table of content */
+/* table of content:
 
-/* css reset
+ * css reset
  * general style
  * header
  * main
+ * email-input
+
 */
 
 /* css reset */
@@ -69,7 +71,7 @@ header {
     margin: auto;
 }
 
-.right-cont button {
+.right-cont-header button {
     background-color: #567b95;
     border: 1px solid #3f5c70;
     border-radius: 3px;
@@ -119,7 +121,7 @@ header {
     width: 600px;
 }
 
-.story-header>.right-cont>.social-links {
+.social-links {
     border-radius: 50%;
     color: black;
     background-color: #EEE;
@@ -130,12 +132,12 @@ header {
     margin-right: 5px;
 }
 
-.story-header>.right-cont>.social-links:hover {
+.social-links:hover {
     background-color: #fff;
     border: 1px solid #eee;
 }
 
-.right-cont {
+.right-cont-soical-header {
 float: right;
 }
 
@@ -144,13 +146,13 @@ float: right;
     font-size: 90%;
 }
 
-.right-cont>a>img {
+.right-cont-soical-header>a>img {
     position: relative;
     margin-right: 5px;
     bottom: -10px;
 }
 
-.right-cont>a>img[alt="svg2"]{
+.right-cont-soical-header>a>img[alt="svg2"]{
     margin-right: 5px;
     bottom: -14px;
 }
@@ -274,13 +276,13 @@ float: right;
 
 }
 
-.right-cont:last-child{
+.right-cont-soical-header:last-child{
   float: right;
   margin-top: 15px;
   margin-bottom: 3rem;
 }
 
-.btn-comment{
+.comments>.btn-comment{
   background-color: rgb(86, 123, 149);
   color: white;
   margin-bottom: 3rem;
@@ -304,4 +306,65 @@ float: right;
   padding: 5px 0px;
   transition: background-color 0.6s ease 0s;
 }
+/* 
+.comments>.social-links {
+    border-radius: 50%;
+    color: black;
+    background-color: #EEE;
+    font-size: 88%;
+    padding: 7px;
+    padding: 0.5em 0.6em;
+    border: 1px solid #fff;
+    margin-right: 5px;
+} */
+
 /* main end */
+
+/* footer */
+
+/* email-input */
+
+.signup {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid black;
+    /* temprory remove after!? */
+    background-color: coral;
+}
+
+.input-cont {
+    width: 50%;
+}
+
+.input-box {
+    flex: 1;
+    width: 100%;
+    display: flex;
+}
+
+.input-box input {
+    width: 60%;
+}
+
+.input-box>button {
+    width: 40%;
+}
+
+.btn-comment {
+    background-color: #567b95;
+    border: 1px solid #3f5c70;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 11px 12px 8px 12px;
+    border-radius: 0 3px 3px 0;
+}
+
+.text-cont {
+    width: 50%;
+}
+
+/* email-input end */
+
+/* footer end */
