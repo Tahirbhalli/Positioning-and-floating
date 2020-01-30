@@ -329,6 +329,8 @@ float: right;
     margin: auto;
     display: flex;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
 }
 
 .input-cont {
@@ -385,7 +387,7 @@ float: right;
 }
 
 .input-cont li:nth-child(2) {
-  padding-left: 10px;  
+  padding-left: 10px;
 }
 
 
@@ -398,11 +400,13 @@ float: right;
   width: 1200px;
   margin: auto;
   margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 
 }
 
 .news-items{
-  width: 852px;
+  width: 500px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding-right: 10px;
@@ -425,6 +429,7 @@ float: right;
 
 .new-headings{
   width: 100px;
+
 }
 
 .new-headings a h2{
@@ -439,7 +444,14 @@ float: right;
 .new-headings ul li{
   border-top: 1px solid rgb(228,228,228);
 }
+.grid-news-items{
+  width: auto;
 
+}
+
+.grid-news-items ul{
+
+}
 
 hr{
 /*  border-bottom: 1px solid rgb(228, 228, 228);*/
@@ -457,6 +469,11 @@ hr{
   margin-left: 3.5rem;
   margin-right: 30px;
   border-bottom: 1px solid rgb(228, 228, 228);
+  border-top: 1px solid rgb(228, 228, 228);
+}
+
+.content-indexes{
+  margin-top: 20px;
 }
 
 .grid-index{
@@ -477,11 +494,59 @@ hr{
 }
 
 .site-info{
-  margin-top: 1rem
-  margin-left:2rem;
-}
-.site-info nav a{
-  padding-right: 1em;
+  width:1200px;
+  margin-left: 150px;
+
 }
 
+.site-info nav a{
+  padding-right: 15px;
+  font-size: 85%;
+  text-align: center;
+}
+
+
+
 /* footer end */
+.grid-container {
+  display: grid;
+  margin-left: 2rem;
+  width: 1200px;
+  grid-template-columns: 4fr 1fr;
+
+  padding: 10px;
+}
+.grid-itemes {
+
+  padding: 20px;
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+}
+.grid-itemes a img{
+  width:200px;
+}
+.grid-itemes p{
+  width: 200px;
+  text-decoration: none;
+  font-size: 50%;
+}
+.items{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.items:last-child{
+  border-top: 1px solid rgb(228,228,228);
+}
+.items ul{
+  width: 280px;
+  margin-right: 10px;
+}
+.items ul li{
+  border-top: 1px solid rgb(228,228,228);
+  margin-top: 30px;
+  ,margin-bottom: 30px;
+}
+.items ul li a{
+  font-weight: bold;
+}
