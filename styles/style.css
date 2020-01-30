@@ -463,10 +463,10 @@ hr{
 }
 
 .indexes{
-  width:100%;
+  width:95%;
   margin-top: 15px;
   float: left;
-  margin-left: 3.5rem;
+  margin-left: 1rem;
   margin-right: 30px;
   border-bottom: 1px solid rgb(228, 228, 228);
   border-top: 1px solid rgb(228, 228, 228);
@@ -495,13 +495,15 @@ hr{
 
 .site-info{
   width:1200px;
+  margin-top: 10rem;
+  display: inline;
   margin-left: 150px;
 
 }
 
 .site-info nav a{
   padding-right: 15px;
-  font-size: 85%;
+  font-size: 75%;
   text-align: center;
 }
 
@@ -540,7 +542,7 @@ hr{
 }
 .items ul{
   width: 280px;
-  margin-right: 10px;
+
 }
 .items ul li{
   border-top: 1px solid rgb(228,228,228);
@@ -549,4 +551,16 @@ hr{
 }
 .items ul li a{
   font-weight: bold;
+}
+.site-links{
+  margin-left: 3.5rem;
+}
+.site-links ul{
+  display: flex;
+}
+.site-links ul li{
+  margin-right: 15px;
+}
+.site-links ul li a{
+  font-size: 80%;
 }
