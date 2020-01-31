@@ -1,7 +1,5 @@
 # Positioning and floating
 
-> Youtube replica
-
 ![screenshot](./img/screenshot.png)
 
 The page tries to replicate as much as possible the actual YouTube page.
@@ -25,7 +23,7 @@ The page tries to replicate as much as possible the actual YouTube page.
 
 👤 **Author2**
 
-- Github: [@Mupa1](https://github.com/tahirbhalli/)
+- Github: [tahirbhalli](https://github.com/tahirbhalli/)
 
 ## 🤝 Contributing
 
