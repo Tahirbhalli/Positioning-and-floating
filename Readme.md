@@ -1,5 +1,7 @@
 # Positioning and floating
 
+> Youtube replica
+
 ![screenshot](./img/screenshot.png)
 
 The page tries to replicate as much as possible the actual YouTube page.
@@ -11,7 +13,7 @@ The page tries to replicate as much as possible the actual YouTube page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Positioning-and-floating/e9c52cdfa43d300b3eebefc9db1bc32c59918a42/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Positioning-and-floating/8d4e036a7d9f0cbc7aa2770d3cd450201259e24e/index.html)
 
 
 ## Authors
@@ -23,7 +25,7 @@ The page tries to replicate as much as possible the actual YouTube page.
 
 👤 **Author2**
 
-- Github: [tahirbhalli](https://github.com/tahirbhalli/)
+- Github: [@Mupa1](https://github.com/tahirbhalli/)
 
 ## 🤝 Contributing
 
