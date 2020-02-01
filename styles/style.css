@@ -6,6 +6,7 @@
  * main
  * email-input
  * footer
+ * fotoer grid
 
 */
 
@@ -91,6 +92,10 @@ header {
   bottom: 0px;
   z-index: 1;
   background-color: white;
+
+  /* remove this part below when finish */
+
+  display: none;
 }
 
 .stiky-bottom p {
@@ -202,6 +207,10 @@ float: right;
   margin: 0px auto 18px;
 }
 
+.signup {
+  margin: 0 auto;
+}
+
 .signup-info{
   text-align: center;
 }
@@ -301,7 +310,9 @@ float: right;
 }
 
 .comments{
-  display: inline;
+  display: block;
+  widows: 600px;
+
 
 }
 
@@ -364,11 +375,11 @@ float: right;
 }
 
 .input-box input {
-    width: 60%;
+    width: 70%;
 }
 
 .input-box>button {
-    width: 40%;
+    width: 30%;
 }
 
 .btn-comment {
@@ -585,3 +596,155 @@ float: right;
 }
 
 /* footer end */
+
+
+.editors-pick {
+  width: 210px;
+  height: 320px;
+  position: absolute;
+  top: 1295px;
+  right: 97px;
+}
+
+.picked-items {
+  width: 208px;
+  height: 78px;
+  display: flex;
+  margin: 15px 0;
+}
+
+.picked-img-cont {
+  flex: 1;
+}
+
+.picked-img-cont img {
+  height: 75px;
+  width: 75px;
+}
+
+.picked-text {
+  flex: 2;
+  display: block;
+  font-size: 76%;
+  padding: 10px 0px 10px 20px;
+}
+
+.picked-text p {
+  margin: auto;
+  display: block;
+}
+
+.social-header {
+  width: 600px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px auto;
+}
+
+.btn-header-cont {
+  width: 50%;
+}
+
+.btn-header-cont button {
+  flex: 1;
+  background-color: #567b95;
+  border: 1px solid #3f5c70;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px 12px;
+  width: 100%;
+}
+
+
+.social-links-cont {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+body>footer {
+  width: 1200px;
+  margin: auto;
+}
+
+.input-cont {
+  border-top: 1px solid black;
+  padding: 30px 0;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.sign-up-text {
+  width: 50%;
+}
+
+.sign-up-box-cont {
+  width: 50%;
+}
+
+/* fotoer grid */
+
+.grid-content-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-section {
+  border-top: 1px solid black;
+}
+
+.footer-grid-container ul{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 852px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+
+.grid-img-cont img {
+  width: 273px;
+  height: 182px;
+}
+
+.side-content {
+  border-top: 1px solid black;
+  width: 318px;
+}
+.side-content h3 {
+  border-top: 1px solid lightgray;
+  padding-top: 1em;
+}
+
+.footer-a h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 95%;
+}
+
+/* fotoer grid end */
+
+/* footer bottom */
+
+.footer-b-header {
+  height: 44px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  margin: 20px auto 100px auto;
+  justify-content: space-between;
+}
+
+.logo-cont2 {
+  margin: auto 0;
+}
+
+.goto-cont a {
+  color: rgb(0, 102, 255);
+  font-size: 70%;
+
+}
