@@ -11,7 +11,7 @@ The page tries to replicate as much as possible the actual YouTube page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Positioning-and-floating/e9c52cdfa43d300b3eebefc9db1bc32c59918a42/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Positioning-and-floating/c534d7dc85b48f08812ce5b01229a8845768ed47/index.html)
 
 
 ## Authors
