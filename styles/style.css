@@ -93,9 +93,6 @@ header {
   z-index: 1;
   background-color: white;
 
-  /* remove this part below when finish */
-
-  display: none;
 }
 
 .stiky-bottom p {
@@ -729,13 +726,15 @@ body>footer {
 /* fotoer grid end */
 
 /* footer bottom */
+.footer-b {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .footer-b-header {
   height: 44px;
   border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
   display: flex;
-  margin: 20px auto 100px auto;
+  margin: 20px auto 0 auto;
   justify-content: space-between;
 }
 
@@ -746,5 +745,52 @@ body>footer {
 .goto-cont a {
   color: rgb(0, 102, 255);
   font-size: 70%;
+}
+
+.grid-lists {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  font-size: 95%;
+}
+
+.grid-lists ul {
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.grid-lists li {
+  padding: 3px 0;
+}
+
+.grid-lists h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 80%;
+}
+
+.grid-lists section:last-child {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.grid-lists section:last-child ul:nth-child(2) {
+  font-weight: 800;
+}
+
+.grid-lists section:last-child ul:nth-child(3) {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 3px;
+}
+
+.site-links {
+  border-top: 1px solid lightgray;
+  font-size: 70%;
+  margin: 15px auto 40px auto;
+  color: #666;
+}
+
+.site-links ul {
+  display: flex;
+  justify-content: space-between;
 
 }
