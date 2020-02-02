@@ -495,14 +495,6 @@ body {
   margin-bottom: 30px;
 }
 
-.site-links ul li {
-  margin-right: 15px;
-}
-
-.site-links ul li a {
-  font-size: 80%;
-}
-
 /* footer end */
 
 .editors-pick {
@@ -670,6 +662,14 @@ body > footer {
 .grid-lists h3 {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 80%;
+}
+
+.site-links ul li {
+  margin-right: 15px;
+}
+
+.site-links ul li a {
   font-size: 80%;
 }
 
