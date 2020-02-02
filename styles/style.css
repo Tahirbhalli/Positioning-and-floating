@@ -17,7 +17,7 @@ button {
   border: none;
   margin: 0;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-family: sans-serif;
   cursor: pointer;
   text-align: center;
@@ -89,13 +89,17 @@ body {
   border-top: 1px solid black;
   display: flex;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   z-index: 1;
   background-color: white;
 }
 
 .stiky-bottom p {
   margin: auto;
+}
+
+.grid-item a {
+  width: inherit;
 }
 
 .stiky-bottom p:last-child {
@@ -176,13 +180,13 @@ body {
   font-size: 90%;
 }
 
-.right-cont-soical-header>a>img {
+.right-cont-soical-header > a > img {
   position: relative;
   margin-right: 5px;
   bottom: -10px;
 }
 
-.right-cont-soical-header>a>img[alt="svg2"] {
+.right-cont-soical-header > a > img[alt="svg2"] {
   margin-right: 5px;
   bottom: -14px;
 }
@@ -200,7 +204,7 @@ body {
 .line {
   width: 72px;
   border-bottom: 1px solid rgb(204, 204, 204);
-  margin: 0px auto 18px;
+  margin: 0 auto 18px;
 }
 
 .signup {
@@ -211,7 +215,7 @@ body {
   text-align: center;
 }
 
-.signup-info a{
+.signup-info a {
   color: blue;
 }
 
@@ -233,7 +237,7 @@ body {
   color: black;
 }
 
-.grid-cont>h3 {
+.grid-cont > h3 {
   color: black;
 }
 
@@ -252,7 +256,7 @@ body {
 .grid-inner-text {
   font-size: 11px;
   font-weight: 800;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .grid-items:nth-child(1) {
@@ -272,11 +276,11 @@ body {
   right: -15px;
 }
 
-.grid-cont>h3 {
+.grid-cont > h3 {
   margin: 0;
 }
 
-.grid-cont>p {
+.grid-cont > p {
   margin: 0;
 }
 
@@ -289,7 +293,7 @@ body {
   background-color: #000;
 }
 
-.grid-footer>p {
+.grid-footer > p {
   margin: 0;
 }
 
@@ -316,7 +320,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.comments>.btn-comment {
+.comments > .btn-comment {
   background-color: rgb(86, 123, 149);
   color: white;
   margin-bottom: 3rem;
@@ -337,7 +341,7 @@ body {
   border-color: rgb(50, 104, 145);
   border-image: initial;
   border-radius: 3px;
-  padding: 5px 0px;
+  padding: 5px 0;
   transition: background-color 0.6s ease 0s;
 }
 
@@ -372,7 +376,7 @@ body {
   width: 70%;
 }
 
-.input-box>button {
+.input-box > button {
   width: 30%;
 }
 
@@ -390,7 +394,7 @@ body {
   width: 50%;
 }
 
-.input-cont span{
+.input-cont span {
   font-size: 90%;
 }
 
@@ -412,10 +416,6 @@ body {
 .input-cont li:nth-child(2) {
   padding-left: 10px;
 }
-
-
-
-
 
 /* email-input end */
 
@@ -446,9 +446,6 @@ body {
 .grid-item img {
   width: inherit;
 }
-.grid-item a {
-  width: inherit;
-}
 
 .new-headings {
   width: 100px;
@@ -464,8 +461,9 @@ body {
 }
 
 .new-headings ul li {
-  border-top: 1px solid rgb(228,228,228);
+  border-top: 1px solid rgb(228, 228, 228);
 }
+
 .grid-news-items {
   width: auto;
 }
@@ -502,11 +500,11 @@ body {
 }
 
 .grid-data:last-child {
-  border-left: 1px solid rgb(228,228,228);
+  border-left: 1px solid rgb(228, 228, 228);
 }
 
 .site-info {
-  width:1200px;
+  width: 1200px;
   margin-top: 10rem;
   margin-left: 150px;
 }
@@ -551,7 +549,7 @@ body {
 }
 
 .items:last-child {
-  border-top: 1px solid rgb(228,228,228);
+  border-top: 1px solid rgb(228, 228, 228);
 }
 
 .items ul {
@@ -559,7 +557,7 @@ body {
 }
 
 .items ul li {
-  border-top: 1px solid rgb(228,228,228);
+  border-top: 1px solid rgb(228, 228, 228);
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -567,6 +565,7 @@ body {
 .items ul li a {
   font-weight: bold;
 }
+
 .site-links {
   margin-left: 3.5rem;
 }
@@ -585,7 +584,6 @@ body {
 }
 
 /* footer end */
-
 
 .editors-pick {
   width: 210px;
@@ -615,7 +613,7 @@ body {
   flex: 2;
   display: block;
   font-size: 76%;
-  padding: 10px 0px 10px 20px;
+  padding: 10px 0 10px 20px;
 }
 
 .picked-text p {
@@ -646,14 +644,13 @@ body {
   width: 100%;
 }
 
-
 .social-links-cont {
   display: flex;
   width: 50%;
   justify-content: flex-end;
 }
 
-body>footer {
+body > footer {
   width: 1200px;
   margin: auto;
 }
@@ -685,7 +682,7 @@ body>footer {
   border-top: 1px solid black;
 }
 
-.footer-grid-container ul{
+.footer-grid-container ul {
   margin: 0;
   padding: 0;
   display: grid;
@@ -693,7 +690,6 @@ body>footer {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
-
 
 .grid-img-cont img {
   width: 273px;
@@ -704,6 +700,7 @@ body>footer {
   border-top: 1px solid black;
   width: 318px;
 }
+
 .side-content h3 {
   border-top: 1px solid lightgray;
   padding-top: 1em;
