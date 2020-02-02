@@ -477,10 +477,13 @@ body {
   border-top: 1px solid rgb(228, 228, 228);
 }
 
+.grid-lists li {
+  padding: 3px 0;
+}
+
 .items ul {
   width: 280px;
 }
-
 
 .items ul li a {
   font-weight: bold;
@@ -664,10 +667,6 @@ body > footer {
   text-transform: capitalize;
 }
 
-.grid-lists li {
-  padding: 3px 0;
-}
-
 .grid-lists h3 {
   text-transform: uppercase;
   font-weight: 700;
@@ -689,7 +688,6 @@ body > footer {
 }
 
 .site-links {
-  margin-left: 3.5rem;
   border-top: 1px solid lightgray;
   font-size: 70%;
   margin: 15px auto 40px auto;
