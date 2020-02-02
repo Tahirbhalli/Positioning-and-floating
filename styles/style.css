@@ -643,7 +643,6 @@ body > footer {
   margin: auto 0;
 }
 
-
 .grid-lists {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -695,7 +694,6 @@ body > footer {
   margin: 15px auto 40px auto;
   color: #666;
 }
-
 
 .right-cont-soical-header > a > img {
   position: relative;
