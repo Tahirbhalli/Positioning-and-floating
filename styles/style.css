@@ -643,10 +643,6 @@ body > footer {
   margin: auto 0;
 }
 
-.site-links ul {
-  display: flex;
-  padding-bottom: 50px;
-}
 
 .grid-lists {
   display: grid;
@@ -673,6 +669,12 @@ body > footer {
   font-size: 80%;
 }
 
+.site-links ul {
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+
 .grid-lists section:last-child {
   border-left: 1px solid lightgray;
   padding-left: 10px;
@@ -694,10 +696,6 @@ body > footer {
   color: #666;
 }
 
-.site-links ul {
-  display: flex;
-  justify-content: space-between;
-}
 
 .right-cont-soical-header > a > img {
   position: relative;
