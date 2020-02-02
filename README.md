@@ -2,7 +2,7 @@
 
 ![screenshot](./img/screenshot.png)
 
-The page tries to replicate as much as possible the actual YouTube page.
+The page tries to replicate as much as possible a New York Times Article.
 
 ## Built With
 
