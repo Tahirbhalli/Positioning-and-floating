@@ -11,7 +11,7 @@ The page tries to replicate as much as possible a New York Times Article.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Positioning-and-floating/dcc630adade4e5f62a988813146ad117525eee54/index.html)
+[Live Demo Link](https://rawcdn.githack.com/adamclasic/Positioning-and-floating/a32ad8e9412d9f57437c5bb8b5313fec2a8280c9/index.html)
 
 
 ## Authors
