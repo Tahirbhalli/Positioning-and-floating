@@ -13,21 +13,21 @@
 /* css reset */
 
 button {
-    display: inline-block;
-    border: none;
-    margin: 0;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: sans-serif;
-    cursor: pointer;
-    text-align: center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 /* css reset end */
@@ -35,7 +35,7 @@ a {
 /* general style */
 
 body {
-    font-family: 'Tinos',georgia,'times new roman',times,serif;;
+  font-family: 'Tinos',georgia,'times new roman',times,serif;;
 }
 
 /* general style end */
@@ -43,44 +43,44 @@ body {
 /* header */
 
 .main-header {
-    position: sticky;
-    top: 0;
-    z-index: 1;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header-cont {
-    background-color: white;
-    padding: 5px 15px;
-    display: flex;
-    border-bottom: 1px solid rgb(228, 228, 228);
+  background-color: white;
+  padding: 5px 15px;
+  display: flex;
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .left-header-icons {
-    padding: 5px;
-    margin-left: 5px;
-    color: rgb(51, 51, 51);;
+  padding: 5px;
+  margin-left: 5px;
+  color: rgb(51, 51, 51);;
 }
 
 .left-header-text {
-    margin-left: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    font-family: sans-serif;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .logo-cont {
-    display: inline;
-    text-align: center;
-    margin: auto;
+  display: inline;
+  text-align: center;
+  margin: auto;
 }
 
 .right-cont-header button {
-    background-color: #567b95;
-    border: 1px solid #3f5c70;
-    border-radius: 3px;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 11px 12px 8px 12px;
+  background-color: #567b95;
+  border: 1px solid #3f5c70;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px 12px;
 }
 
 .stiky-bottom {
@@ -92,7 +92,6 @@ body {
   bottom: 0px;
   z-index: 1;
   background-color: white;
-
 }
 
 .stiky-bottom p {
@@ -116,89 +115,89 @@ body {
 /* main */
 
 .story {
-    width: 600px;
-    margin: auto;
+  width: 600px;
+  margin: auto;
 }
 
 .title {
-    width: 383px;
-    text-align: center;
-    font-style: italic;
-    margin: 50px 0 25px 0;
-    font-size: 232%;
+  width: 383px;
+  text-align: center;
+  font-style: italic;
+  margin: 50px 0 25px 0;
+  font-size: 232%;
 }
 
 .author-sec {
-    width: 945px;
-    color: #666;
-    margin: auto;
+  width: 945px;
+  color: #666;
+  margin: auto;
 }
 
 .author-sec img {
-    width: 100%;
+  width: 100%;
 }
 
 .author-name {
-    color: rgb(155, 154, 154);
-    font-size: 80%;
+  color: rgb(155, 154, 154);
+  font-size: 80%;
 }
 
 .author-sec p {
-    width: 720px;
+  width: 720px;
 }
 
 .story-header {
-    height: 27px;
-    width: 600px;
+  height: 27px;
+  width: 600px;
 }
 
 .social-links {
-    border-radius: 50%;
-    color: black;
-    background-color: #EEE;
-    font-size: 88%;
-    padding: 7px;
-    padding: 0.5em 0.6em;
-    border: 1px solid #fff;
-    margin-right: 5px;
+  border-radius: 50%;
+  color: black;
+  background-color: #eee;
+  font-size: 88%;
+  padding: 7px;
+  padding: 0.5em 0.6em;
+  border: 1px solid #fff;
+  margin-right: 5px;
 }
 
 .social-links:hover {
-    background-color: #fff;
-    border: 1px solid #eee;
+  background-color: #fff;
+  border: 1px solid #eee;
 }
 
 .right-cont-soical-header {
-float: right;
+  float: right;
 }
 
 .date {
-    float: left;
-    font-size: 90%;
+  float: left;
+  font-size: 90%;
 }
 
 .right-cont-soical-header>a>img {
-    position: relative;
-    margin-right: 5px;
-    bottom: -10px;
+  position: relative;
+  margin-right: 5px;
+  bottom: -10px;
 }
 
-.right-cont-soical-header>a>img[alt="svg2"]{
-    margin-right: 5px;
-    bottom: -14px;
+.right-cont-soical-header>a>img[alt="svg2"] {
+  margin-right: 5px;
+  bottom: -14px;
 }
 
 .story>p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 90%;
 }
 
 .story-text {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
-.line{
+.line {
   width: 72px;
   border-bottom: 1px solid rgb(204, 204, 204);
   margin: 0px auto 18px;
@@ -208,7 +207,7 @@ float: right;
   margin: 0 auto;
 }
 
-.signup-info{
+.signup-info {
   text-align: center;
 }
 
@@ -216,110 +215,108 @@ float: right;
   color: blue;
 }
 
-.line:last-child{
+.line:last-child {
   margin-top: 1rem;
 }
 
 .grid-cont {
-    width: 945px;
-    color: #666;
-    margin: auto;
+  width: 945px;
+  color: #666;
+  margin: auto;
 }
 
 .content {
-    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+  background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 .grid-cont>h3 {
-    color: black;
+  color: black;
 }
 
 .grid-items {
-    display: inline-block;
-    width: 228px;
+  display: inline-block;
+  width: 228px;
 }
 
 .grid-items {
-    padding-top: 120px;
-    font-size: 14px;
-    line-height: 17px;
-    font-weight: 300;
+  padding-top: 120px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
 }
 
 .grid-inner-text {
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: .05em;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .05em;
 }
 
 .grid-items:nth-child(1) {
-    position: relative;
-    top: 19px;
+  position: relative;
+  top: 19px;
 }
 
 .grid-items:nth-child(3) {
-    position: relative;
-    top: -2px;
-    margin-left: 2px;
+  position: relative;
+  top: -2px;
+  margin-left: 2px;
 }
 
 .grid-items:nth-child(4) {
-    position: relative;
-    top: 14px;
-    right: -15px;
+  position: relative;
+  top: 14px;
+  right: -15px;
 }
 
 .grid-cont>h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .grid-cont>p {
-    margin: 0;
+  margin: 0;
 }
 
 .grid-footer::before {
-    width: 60px;
-    content: '';
-    display: inline-block;
-    height: 1px;
-    margin: 0 0 13px;
-    background-color: #000;
+  width: 60px;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
 }
 
 .grid-footer>p {
-    margin: 0;
+  margin: 0;
 }
 
-.story-text iframe{
+.story-text iframe {
   margin-top: 5px;
 }
 
-.desc-heading{
+.desc-heading {
   font-weight: bold;
 }
 
-.space-img{
+.space-img {
   width: 600px;
 }
 
-.comments{
+.comments {
   display: block;
   widows: 600px;
-
-
 }
 
-.right-cont-soical-header:last-child{
+.right-cont-soical-header:last-child {
   float: right;
   margin-top: 15px;
   margin-bottom: 3rem;
 }
 
-.comments>.btn-comment{
+.comments>.btn-comment {
   background-color: rgb(86, 123, 149);
   color: white;
   margin-bottom: 3rem;
@@ -351,46 +348,46 @@ float: right;
 /* email-input */
 
 .signup {
-    width: 1200px;
-    margin: auto;
-    display: flex;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding-bottom: 3rem;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 3rem;
 }
 
 .input-cont {
-    width: 50%;
+  width: 50%;
 }
 
 .input-box {
-    flex: 1;
-    width: 100%;
-    display: flex;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .input-box input {
-    width: 70%;
+  width: 70%;
 }
 
 .input-box>button {
-    width: 30%;
+  width: 30%;
 }
 
 .btn-comment {
-    background-color: #567b95;
-    border: 1px solid #3f5c70;
-    border-radius: 3px;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 11px 12px 8px 12px;
-    border-radius: 0 3px 3px 0;
+  background-color: #567b95;
+  border: 1px solid #3f5c70;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 11px 12px 8px 12px;
+  border-radius: 0 3px 3px 0;
 }
 
 .text-cont {
-    width: 50%;
+  width: 50%;
 }
 
 .input-cont span{
@@ -430,7 +427,6 @@ float: right;
   margin-top: 1rem;
   display: grid;
   grid-template-columns: 3fr 1fr;
-
 }
 
 .news-items {
@@ -449,7 +445,6 @@ float: right;
 
 .grid-item img {
   width: inherit;
-
 }
 .grid-item a {
   width: inherit;
@@ -457,7 +452,6 @@ float: right;
 
 .new-headings {
   width: 100px;
-
 }
 
 .new-headings a h2 {
@@ -474,7 +468,6 @@ float: right;
 }
 .grid-news-items {
   width: auto;
-
 }
 
 .wraper {
@@ -482,7 +475,7 @@ float: right;
 }
 
 .indexes {
-  width:95%;
+  width: 95%;
   margin-top: 15px;
   float: left;
   margin-left: 1rem;
@@ -516,7 +509,6 @@ float: right;
   width:1200px;
   margin-top: 10rem;
   margin-left: 150px;
-
 }
 
 .site-info nav a {
@@ -544,7 +536,7 @@ float: right;
 }
 
 .grid-itemes a img {
-  width:200px;
+  width: 200px;
 }
 
 .grid-itemes p {
@@ -792,5 +784,4 @@ body>footer {
 .site-links ul {
   display: flex;
   justify-content: space-between;
-
 }
