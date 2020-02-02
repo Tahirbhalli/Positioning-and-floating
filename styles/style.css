@@ -94,6 +94,11 @@ body {
   background-color: white;
 }
 
+.goto-cont a {
+  color: rgb(0, 102, 255);
+  font-size: 70%;
+}
+
 .stiky-bottom p {
   margin: auto;
 }
@@ -104,13 +109,6 @@ body {
 
 .grid-item a {
   width: inherit;
-}
-
-
-
-.stiky-bottom p:last-child a {
-  font-size: 75%;
-  margin-right: 30px;
 }
 
 /* header end */
@@ -174,8 +172,6 @@ body {
   float: left;
   font-size: 90%;
 }
-
-
 
 .right-cont-soical-header > a > img[alt="svg2"] {
   margin-right: 5px;
@@ -311,31 +307,6 @@ body {
   margin-bottom: 3rem;
 }
 
-.comments > .btn-comment {
-  background-color: rgb(86, 123, 149);
-  color: white;
-  margin-bottom: 3rem;
-  margin-top: 15px;
-  float: left;
-  display: block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  line-height: 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-transform: uppercase;
-  width: 330px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(50, 104, 145);
-  border-image: initial;
-  border-radius: 3px;
-  padding: 5px 0;
-  transition: background-color 0.6s ease 0s;
-}
-
 /* main end */
 
 /* footer */
@@ -437,14 +408,6 @@ body {
   margin-bottom: 10px;
 }
 
-.new-headings ul li h3 {
-  margin-left: 10px;
-}
-
-.new-headings ul li {
-  border-top: 1px solid rgb(228, 228, 228);
-}
-
 .grid-news-items {
   width: auto;
 }
@@ -511,10 +474,6 @@ body {
   font-size: 30px;
   width: 200px;
   text-align: center;
-}
-
-.grid-itemes a img {
-  width: 200px;
 }
 
 .grid-itemes p {
@@ -711,11 +670,6 @@ body > footer {
   margin: auto 0;
 }
 
-.goto-cont a {
-  color: rgb(0, 102, 255);
-  font-size: 70%;
-}
-
 .grid-lists {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -784,4 +738,46 @@ body > footer {
 
 .input-cont li:nth-child(2) {
   padding-left: 10px;
+}
+
+.comments > .btn-comment {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  margin-bottom: 3rem;
+  margin-top: 15px;
+  float: left;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  width: 330px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
+  border-radius: 3px;
+  padding: 5px 0;
+  transition: background-color 0.6s ease 0s;
+}
+
+.new-headings ul li {
+  border-top: 1px solid rgb(228, 228, 228);
+}
+
+.stiky-bottom p:last-child a {
+  font-size: 75%;
+  margin-right: 30px;
+}
+
+.grid-itemes a img {
+  width: 200px;
+}
+
+.new-headings ul li h3 {
+  margin-left: 10px;
 }
