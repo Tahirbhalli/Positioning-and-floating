@@ -35,7 +35,7 @@ a {
 /* general style */
 
 body {
-  font-family: 'Tinos', georgia, 'times new roman', times, serif;;
+  font-family: 'Tinos', georgia, 'times new roman', times, serif;
 }
 
 /* general style end */
@@ -58,7 +58,7 @@ body {
 .left-header-icons {
   padding: 5px;
   margin-left: 5px;
-  color: rgb(51, 51, 51);;
+  color: rgb(51, 51, 51);
 }
 
 .left-header-text {
@@ -196,6 +196,11 @@ body {
 
 .signup {
   margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 3rem;
 }
 
 .signup-info {
@@ -225,12 +230,8 @@ body {
 }
 
 .grid-cont > h3 {
+  margin: 0;
   color: black;
-}
-
-.grid-items {
-  display: inline-block;
-  width: 228px;
 }
 
 .grid-items {
@@ -238,6 +239,8 @@ body {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
+  display: inline-block;
+  width: 228px;
 }
 
 .grid-inner-text {
@@ -261,10 +264,6 @@ body {
   position: relative;
   top: 14px;
   right: -15px;
-}
-
-.grid-cont > h3 {
-  margin: 0;
 }
 
 .grid-cont > p {
@@ -312,19 +311,6 @@ body {
 /* footer */
 
 /* email-input */
-
-.signup {
-  width: 1200px;
-  margin: auto;
-  display: flex;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  padding-bottom: 3rem;
-}
-
-.input-cont {
-  width: 50%;
-}
 
 .input-box {
   flex: 1;
@@ -495,23 +481,15 @@ body {
   width: 280px;
 }
 
-.items ul li {
-  border-top: 1px solid rgb(228, 228, 228);
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
 .items ul li a {
   font-weight: bold;
 }
 
-.site-links {
-  margin-left: 3.5rem;
-}
-
-.site-links ul {
-  display: flex;
-  padding-bottom: 50px;
+.items ul li {
+  border-top: 1px solid rgb(228, 228, 228);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .site-links ul li {
@@ -670,6 +648,11 @@ body > footer {
   margin: auto 0;
 }
 
+.site-links ul {
+  display: flex;
+  padding-bottom: 50px;
+}
+
 .grid-lists {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -706,6 +689,7 @@ body > footer {
 }
 
 .site-links {
+  margin-left: 3.5rem;
   border-top: 1px solid lightgray;
   font-size: 70%;
   margin: 15px auto 40px auto;
@@ -730,6 +714,9 @@ body > footer {
   margin: 0;
 }
 
+.new-headings ul li {
+  border-top: 1px solid rgb(228, 228, 228);
+}
 
 .input-cont li:nth-child(1) {
   padding-right: 10px;
@@ -763,10 +750,6 @@ body > footer {
   border-radius: 3px;
   padding: 5px 0;
   transition: background-color 0.6s ease 0s;
-}
-
-.new-headings ul li {
-  border-top: 1px solid rgb(228, 228, 228);
 }
 
 .stiky-bottom p:last-child a {
